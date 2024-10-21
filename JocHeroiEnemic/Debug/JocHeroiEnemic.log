@@ -1,0 +1,12 @@
+﻿  Engine.cpp
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,53): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,53): warning C4244:         with
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,53): warning C4244:         [
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,53): warning C4244:             T=float
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,53): warning C4244:         ]
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,41): warning C4244: 'argumento': conversión de 'T' a 'unsigned int'; posible pérdida de datos
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,41): warning C4244:         with
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,41): warning C4244:         [
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,41): warning C4244:             T=float
+D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\JocHeroiEnemic\Engine.cpp(7,41): warning C4244:         ]
+  JocHeroiEnemic.vcxproj -> D:\AluCiclesGS2\motorPRVI\JocHeroiEnemic - simple\Debug\JocHeroiEnemic.exe
