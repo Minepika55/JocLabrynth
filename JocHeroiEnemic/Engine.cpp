@@ -108,7 +108,7 @@ void Engine::updateInput() {
             }
         }
 
-        if (event.key.code == sf::Keyboard::Escape || event.type == sf::Event::Closed)
+        if (event.key.code == sf::Keyboard::Escape || event.type == sf::Event::Closed)//Per tencar el joc
             window.close();
     }
 }
@@ -142,7 +142,7 @@ void Engine::update(float dt) {
 
 }
 
-void Engine::moveEnemies(float dt) {
+void Engine::moveEnemies(float dt) {//Actualitza el moviment enemic
     for (auto& enemy : enemies) {
         enemy.update(dt);
     }
@@ -154,6 +154,7 @@ void Engine::moveWalls(float dt) {
     }
 }
 
+//Dibuixa el joc
 void Engine::draw() {
     window.clear(sf::Color::Red);
     window.draw(skySprite);
@@ -182,6 +183,7 @@ void Engine::draw() {
     window.display();
 }
 
+//Inicialitza el temps del joc
 int Engine::run() {
     sf::Clock clock;
     init();
@@ -195,7 +197,7 @@ int Engine::run() {
             update(dt.asSeconds());
         }
         else {
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Down)) {//Per reiniciar
                 gameover = false;
                 reset();
             }
@@ -207,6 +209,7 @@ int Engine::run() {
     return 0;
 }
 
+//Colisions
 bool Engine::checkCollision(sf::Sprite sprite1, sf::Sprite sprite2) {
     sf::FloatRect shape1 = sprite1.getGlobalBounds();
     sf::FloatRect shape2 = sprite2.getGlobalBounds();

@@ -38,6 +38,7 @@ private:
     std::vector<Enemy> enemies;
     std::vector<Wall> Walls;
 
+    //Tot lo necessari
     void reset();
     void init();
     void updateInput();

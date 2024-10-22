@@ -10,7 +10,7 @@ void Enemy::init(std::string textureName, sf::Vector2f startPos, sf::Vector2f en
     m_endPos = endPos;
     m_speed = speed;
 }
-
+//Mou l'enemic
 void Enemy::update(float dt) {
     sf::Vector2f direction = m_endPos - m_startPos;
     if (movingRight) {
@@ -22,7 +22,7 @@ void Enemy::update(float dt) {
         if (m_sprite.getPosition().x <= m_startPos.x) movingRight = true;
     }
 }
-
+//Agafa el seu sprite
 sf::Sprite Enemy::getSprite() {
     return m_sprite;
 }

@@ -46,6 +46,7 @@ void Hero::update(float dt) {
 
 }
 
+//Salt del jugador
 void Hero::jump(float velocity) {
     if (jumpCount < 2) {
         jumpCount++;
@@ -54,12 +55,13 @@ void Hero::jump(float velocity) {
     }
 }
 
+//Moviments horitzontals
 void Hero::moveLeft(float velocity) {
-    m_horizontalVelocity = -velocity;  // Move left
+    m_horizontalVelocity = -velocity;
 }
 
 void Hero::moveRight(float velocity) {
-    m_horizontalVelocity = velocity;  // Move right
+    m_horizontalVelocity = velocity;
 }
 
 sf::Sprite Hero::getSprite() {

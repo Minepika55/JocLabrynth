@@ -10,7 +10,7 @@ void Wall::init(std::string textureName, sf::Vector2f startPos, sf::Vector2f end
     m_endPos = endPos;
     m_speed = speed;
 }
-
+//Mou la paret
 void Wall::update(float dt) {
     sf::Vector2f direction = m_endPos - m_startPos;
     if (movingUp) {
@@ -22,7 +22,7 @@ void Wall::update(float dt) {
         if (m_sprite.getPosition().y <= m_startPos.y) movingUp = true;
     }
 }
-
+//Agafa el seu sprite
 sf::Sprite Wall::getSprite() {
     return m_sprite;
 }
